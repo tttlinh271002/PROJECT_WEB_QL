@@ -1,0 +1,29 @@
+h3.title_admin {
+    text-align: center;
+    font-size: 35px;
+    color: crimson;
+}
+.wrapper1 {
+    height: 585px;
+    width: 100%;
+    background-color: burlywood;
+    /* float: right; */
+    margin-left: 15px;
+}
+/* .table_right{
+    float: right;
+} */
+input[type="text"] {
+    margin: 3px;
+}
+.bangtc1 {
+    width:97%;
+    text-align: left;
+}
+.hang1 {
+    background-color:#ffe6e6;
+    height: 35px;
+}
+tr.hangcot1 {
+    height: 30px;
+}

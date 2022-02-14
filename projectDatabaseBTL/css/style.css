@@ -1,0 +1,218 @@
+body{
+    margin:0;/* Khoảng cách của nội dung đó */
+    padding:0;/* Khoảng cách của nội dung và phần bao quanh nó */
+    height: 90%;
+}
+.wrapper{
+    height:100%;
+    width:100%;
+    margin: 0 auto;
+}
+.header{
+    /* background-image: url("../images/rose.jpg"); */
+    /* background-size: 15% 180px;
+    background-repeat: no-repeat; hình ảnh k lặp đi lặp lại*/
+    /* border: 1px solid #555252; */
+    height: 50px;
+    width: 100%;
+    margin:0 auto;
+}
+.main{
+    /* border: 1px solid #ffbf00; */
+    height: 90%;
+    width: 100%;
+}
+.headercontent{
+    height: 50px;
+    width: 22.2%;
+    background-color: #006080;
+    float: left;
+}
+
+.hellocontent{
+    height: 50px;
+    width: 77.8%;
+    /* background-color: #4080bf; */
+    background-color: #0086b3;
+    overflow: auto;
+    float: right;
+}
+
+.clear{
+    clear: both;
+} 
+/*.menu{
+    border: 1px solid rgb(110, 192, 151);
+    height: 50px;
+    width: 100%;
+    background: #ffbf00;
+}*/
+
+.menuleft{
+    height: 720px;
+    width: 22.2%;
+    background-color: #303030;
+    float: left;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.list_menu li {
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #303030;
+    border-top: 1px solid #B8B8B8;
+    border-bottom: 1px solid #B8B8B8;
+}
+ul.list_menu li:hover {
+    background: #686868;
+    color: white;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px;
+}
+ul.list_menu li a:hover {
+    color: #ffa31a;
+}
+
+.menuright{
+    height: 720px;
+    width: 77.8%;
+    background-color: #e3e0cc;
+    float: right;
+}
+
+/* .account{
+    border: 1px solid #000;
+    background-color: darkgray;
+    height: 80px;
+    width: 100%;
+}
+.menu1{
+    border: 1px solid  #ffeb99;
+    height: 40px;
+    width: 100%;
+    background-color: cornflowerblue;
+    line-height: ;
+} */
+/*.sidebar{
+    border: 1px solid rgb(113, 212, 204);
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.maincontent{
+    border: 1px solid rgb(212, 113, 151);
+    height: 390px;
+    width: 75%;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+}*/
+.trangchu{
+    border: 1px solid #f0f0f0;
+    height: 30px;
+    width: 70%;
+    text-align: center;
+    margin-inline: 35px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+p.tinh{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: px;
+    /* height: 10px; */
+    height: px;
+    line-height: 1px;
+    font-weight: 600;
+    color: white;
+}
+ul.menu_home li {
+    height: 70px;
+    margin: 11px;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+}
+ul.menu_home {
+    list-style: none;
+    width: 95%;
+}
+ul.menu_home li a {
+    /* text-align: center; */
+    color: black;
+    /* padding: 10px; */
+    font-size: 21px;
+    font-weight: 550;
+}
+.account {
+    left: 0px;
+    width: 46px;
+    background: url('lisa.jpg') 0 0;
+}
+/* .icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}*/
+  
+.hellocontent a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 2px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 39.5px;
+}
+  
+.hellocontent a:hover {
+    background-color: #007399;
+}
+  
+.active {
+    background-color: #0086b3;
+} 
+
+.menu_index {
+    background-color: white;
+    width: 96%;
+    height: 680px;
+    margin-left: 12px;
+    padding: 7px;
+    margin-top: 12px;
+    border: 2px solid #ffffff;
+}
+h3.title_menu {
+    text-align: center;
+    font-size: 45px;
+    color: #007399;
+}
+p.tongket {
+    font-size: 30px;
+    font-weight: 600;
+    float: right;
+    margin-right: 15px;
+}
+h3.doikk {
+    text-align: center;
+    font-size: 35px;
+    color: #006080;
+    padding: 20px;
+}
